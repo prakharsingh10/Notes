@@ -1,5 +1,5 @@
 # Notes
 Notes of topics
-![Image description](images/bar graph.png)
+![Image description](images/bar-graph.png)
 
 
