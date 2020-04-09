@@ -18,5 +18,13 @@
 
 ![Table creation with heading](/images/table.PNG)
 
-
+{
+    "Test Snippet": {
+        "prefix": "gep13",
+        "body": [
+            "test $1"
+        ],
+        "description": "Your snippet description here."
+    }
+}
 s
