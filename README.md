@@ -99,7 +99,8 @@ WE CAN ALSO INTRODUCE SOME TEXTAREA IN OUR WEBPAGE
 
 ![textarea](/images/textarea.PNG)
 
-RADIO BUTTONS :-We can also insert radio button which will allow the user to choose certain info, we can do this by
+#RADIO BUTTONS :-
+We can also insert radio button which will allow the user to choose certain info, we can do this by
 
     <p>Select your fav pragraming language</p>
     <input type="radio" name="lang" id="chutiya hai">JAVA
@@ -118,7 +119,7 @@ RADIO BUTTONS :-We can also insert radio button which will allow the user to cho
 ![radiobutton](/images/radiobutton.PNG)
 In the attribute name you can see that if we have same name in two or more such radio buttons then the user will only be able to select one such radio button.In value attribute we provide the text which will be forwarded to server of database if the user select that option.And after that comes the label of that button.
 
-CHECKBOX
+#CHECKBOX
 We can also have checkboxes and in checkboxes we can select more than one options.Thats how we do it:-
 
     <p>Select your favourite food</p>
