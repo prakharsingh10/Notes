@@ -1,7 +1,7 @@
 => WE CAN ALSO CREATE TABLE IN OUR WEBPAGE
 
 
-*<body>
+`<body>
  <table>
   <tr>
    <th>Name</th>
@@ -14,6 +14,6 @@
    <td>11</td>
   </tr>
  </table>
-</body>*
+</body>`
 
 ![Table creation with heading](/images/table.PNG)
