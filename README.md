@@ -162,3 +162,61 @@ We can create some dropdowns in our webpage
 ![dropdownselect](/images/select.PNG)
 
 ![savetime](/images/savetime.PNG)
+
+                   CSS - CASCADING STYLE SHEETS
+
+It is responsible for styling the web  
+selector{property:value;property:value}
+there are three ways to start css:
+inline,internal,external
+
+INLINE CSS:-
+
+    <body>
+        <!--inline css-->
+        <h1 style="color: darkorange; font-size: 3rem;">Hello world</h1>
+        <h2 style="color: rgb(0, 110, 255);">Prakhar is great</h2>
+    </body>
+
+![inlinecss](/images/inlinecss.PNG)
+
+However we note that if we want to colour red multiple headings then we have type it again and again in inline css.To encounter that we use internl css.
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Tutorial</title>
+        <style>
+        h1 {
+            color: red;
+            font-size: 3rem;
+        }
+        h2 {
+            color: seagreen;
+            font-size: 1rem;
+        }
+        </style>
+    </head>
+    <body>
+        <!--internal css-->
+        <h1>Prakhar is great</h1>
+        <h1>Prakhar is great</h1>
+        <h1>Prakhar is great</h1>
+        <h1>Prakhar is great</h1>
+        <h2>Prakhar is great</h2>
+    </body>
+    </html>
+
+In internal css we added the style in the head tag and we specified the properties of all the h1,h2 element inside the newly created style tag in head.
+
+![internal css](/images/internalcss.PNG)
+And if we want lets say one heading to be differently styled then we caan use inline css in that heading.It will get preference over the iinternal css.
+
+In internall css we were lacking the flexibility for the multiple pages.TO tackle this we can use external css.
+We created a .css file in our workspace and then put all our css styles into that .css file.Then we provide link of css into head tag in index,html,about.html and all the pages we want to style.
+
+![maincss](/images/maincss.PNG)
+![INDEXCSS](/images/indexcss.PNG)
+![ABOUTCSS](/images/aboutcss.PNG)
