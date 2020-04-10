@@ -220,4 +220,45 @@ We created a .css file in our workspace and then put all our css styles into tha
 ![maincss](/images/maincss.PNG)
 ![INDEXCSS](/images/indexcss.PNG)
 ![ABOUTCSS](/images/aboutcss.PNG)
-s
+
+If we do this in the .css file
+
+    body {
+    color: blue;
+    }
+
+then whole body will be coloured as blue.
+
+If we want h1 and h2 to be blue ang rest bogy as red then we can specify it either in the index.html page, or using inline css or another method is to specify it in .css file .
+![grouping](/images/grouping.PNG)
+![groupingresult](/images/groupingresult.PNG)
+
+We can also use a fantastic approach of using the id, and then in .css file we will specify the id
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Tutorial</title>
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body>
+        <!--external css-->
+        <h1 id="truth">Prakhar is great</h1>
+        <h2 id="truth">Prakhar is great</h2>
+        <p style="width: 50%;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ex
+        corporis natus neque cumque? Dolore debitis ex provident, autem rem
+        sapiente voluptatum non? Commodi, minima in fugiat rerum assumenda
+        voluptatem accusantium, deserunt nemo dicta tempore totam a esse quam
+        voluptates provident explicabo error voluptate eveniet optio voluptatibus
+        veritatis architecto illo.
+        <h1>Prakhar is great</h1>
+        </p>
+    </body>
+    </html>
+
+The below code is of .css
+![id](/images/id.PNG)
+![id](/images/idresult.PNG)
