@@ -36,6 +36,19 @@ index 58366f4..a1c38d5 100644
 ---
 
 We can also tag later into our commit history
-for that we have to do |git tag -a <tagname> commit_id|
+for that we have to do |git tag -a !tagname! commit_id|
 
-One last thing, git push doesn't push the tags to the remote repository we have to explicitly push tags after we have created them by using command |git push origin <tagname>|
+One last thing, git push doesn't push the tags to the remote repository we have to explicitly push tags after we have created them by using command |git push origin !tagname!|
+We can also push the tag in sigle command |git push --tags|
+
+We can delete the existing tags by using command |git tag -d !tagname!|
+
+---
+
+---
+
+                          GIT ALIASES
+
+Git alias is very useful when we dont want to type any word of command full.We can make use of git alias to give it a shortname
+|git config --global alias.br branch|
+The above command will work such that we can type br instead of branch in entire git.
