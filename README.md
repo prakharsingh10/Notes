@@ -220,3 +220,4 @@ We created a .css file in our workspace and then put all our css styles into tha
 ![maincss](/images/maincss.PNG)
 ![INDEXCSS](/images/indexcss.PNG)
 ![ABOUTCSS](/images/aboutcss.PNG)
+s
