@@ -359,7 +359,7 @@ The em value will depend on the parent container.If we <br/> create a div and pu
 ![emresult](/images/emresult.PNG)
 
 And we note that both the sizes are same because div is the <br/> parent of bothbut in div we set the font-size as 16px <nr/>therefore inside that div the value of 1em will be equal to 16px <br/> because em is relative.<br/>
-
+.
 4 =>rem (this is also relative)<br/>
 The relative value of one rem doesnot depend upon the parent, rather it depends <br/>on the root ie html. So we can change it by styling html in .css page.
 ![remresult](/images/remresult.PNG)
