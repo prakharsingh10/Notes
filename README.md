@@ -301,3 +301,53 @@ The property of parent selectors will be inherited unless <br/> we overwrite tha
 ![inheritance0](/images/inheritancemain.PNG)
 ![inheritance1](/images/inheritanceindex.PNG)
 ![inheritance2](/images/inheritanceresult.PNG)
+
+Also note that if we add border in div in .css file then heading and para both <br/> wont be bordered.<br/>
+LAST RULE:- If we style the paragrsph in a ceretain way in .css file and <br/>
+then style the para again in the .css file with another style then the style <br/> which has last been added will be choosed as the style of the selector or <br/> para in this case.<br/><br/>
+SPECIFICITY :- <br/>
+IF in .css file we style the paragraph as color red, and then <br/> we madee a class green and provide the green class <br/> to a para, then the para will be green in color.<br/><br/>
+
+# ####Universal Selector
+
+There is a thing called universal selector which is quiet useful if we want <br>
+to create certain style to our whole page or maximum page or provide certain
+<br/>property to maximum selectors, then we can make use of universal selector
+
+![universalselector](/images/universalselector.PNG)
+
+Universal selectors have least amount of specificity.
+
+# #COLOR PROPERTIES
+
+RGB (value1,value2,value3) <br/>
+All the values should be less than or equal to 255
+
+![RGB](/images/rgbresult.PNG)
+
+We can also use rgba(value1,value2,value3,factor)
+<br/> And the value of factor will lie between 0 to 1.<br/>
+for example we use rgba(0,0,0,0.5) then it will display somewhat gray color.<br/>
+if we choose the value of factor as 0 then it will show white color
+
+![rgbaresult](/images/rgbaresult.PNG)
+
+# ####HEX COLORS
+
+These are very useful and we can select them by #......
+<br/> Six values are there denoting RRBBGG
+<br/> we can get cool colors from "coolors.co"
+
+# #CSS Units
+
+1 => Pixel or px <br/>
+
+![pixels](/images/pixelsresult.PNG)
+It is considered as absolute unit, meaning that if we increse<br/> the size of the window the size of text and all other <br/> size given in pixel unit will remain same.<br/>
+Note that the height and the width attributes doesn't affect the size of the text, rather they will affect the wrapping of the text.<br/>
+
+2 =>PERCENTAGE<br/>
+It is a relative unit.In the below example we created a block div and in .css file we specified this div's class and give property to the class.Then we created two more div and gave them class as well and style te class and its propeerty in .css file.See how the block gets occupied in the outer div as we create more div inside it.
+
+![toughone](understandingpercentageindex.PNG)
+![toughone2](understandingpercentageresult.PNG)
