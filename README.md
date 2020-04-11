@@ -349,5 +349,5 @@ Note that the height and the width attributes doesn't affect the size of the tex
 2 =>PERCENTAGE<br/>
 It is a relative unit.In the below example we created a block div and in .css file we specified this div's class and give property to the class.Then we created two more div and gave them class as well and style te class and its propeerty in .css file.See how the block gets occupied in the outer div as we create more div inside it.
 
-![toughone](understandingpercentageindex.PNG)
-![toughone2](understandingpercentageresult.PNG)
+![toughone](/images/understandingpercentageindex.PNG)
+![toughone2](/images/understandingpercentageresult.PNG)
