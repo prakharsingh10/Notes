@@ -1,9 +1,9 @@
-GIT has ability to tag specific points in a repository's history as being important. We can do this by creating tags in git.
+GIT has ability to tag specific points in a repository's history as being important.<br/> We can do this by creating tags in git.
 1 =>
 To get the list of the presrrent tags we use the command |git tag|.And this will list all the present tags in alphabetical orders.
 
 HOW TO CREATE TAGS?
-In eneral there are two type of tags lightweight and annotated. But we will use annotated tags as it contains many information like tagger name,email,date and also contains a tagging message.
+In eneral there are two type of tags lightweight and annotated. But<br/> we will use annotated tags as it contains many information like tagger name,email,date and also contains a tagging message.
 
 git tag -a v1.4 -m"My version 1.4"
 
