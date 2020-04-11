@@ -282,3 +282,22 @@ We can provide multiple class to any selectors just by seperating them by a spac
 ![resultclass](/images/resultclass.PNG)
 
 # ###DIV AND SPAN###<br/>
+
+We can ude div and span for grouping the selectors of various kind.<br/>
+With div and span we must know that div is added to the<br/> block while span is inline type.We can also add<br/>classes and ids within the div tag<br/>
+Now the below code and result will give us a nice understanding about div span their combination with class and overwriting
+![divspan0](/images/divspanmain.PNG)
+![divspan1](/images/divspanindexn.PNG)
+![divspan2](/images/divspanresult.PNG)
+
+If we do div instead of span in the above index page then the change will be<br/> there but all the text inside the div tag will be started from the new line<br/> in the result page.
+
+# ##Inheritance in CSS##<br/>
+
+The concept of inheritance is very simple that whatever <br/>property is given to the parent element is going <br/> to be inherited by the child element unless property <br/> of child is specifically mentioned.
+<br/><br/>
+The property of parent selectors will be inherited unless <br/> we overwrite that property for the child .
+
+![inheritance0](/images/inheritancemain.PNG)
+![inheritance1](/images/inheritanceindex.PNG)
+![inheritance2](/images/inheritanceresult.PNG)
