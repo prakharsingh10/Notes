@@ -351,3 +351,18 @@ It is a relative unit.In the below example we created a block div and in .css fi
 
 ![toughone](/images/understandingprecentageindex.PNG)
 ![toughone2](/images/understandingprecentageresult.PNG)
+
+3 =>em (this is also relative)<br/>
+The em value will depend on the parent container.If we <br/> create a div and put some heading in that div and provided different class to them and when styling the class in one we use em and in other wwe use em then it is to be noted that the em font size will depend on the value we gave for deefining the parent of that heading .
+
+![emindex](/images/emindex.PNG)
+![emresult](/images/emresult.PNG)
+
+And we note that both the sizes are same because div is the <br/> parent of bothbut in div we set the font-size as 16px <nr/>therefore inside that div the value of 1em will be equal to 16px <br/> because em is relative.<br/>
+
+4 =>rem (this is also relative)<br/>
+The relative value of one rem doesnot depend upon the parent, rather it depends <br/>on the root ie html. So we can change it by styling html in .css page.
+![remresult](/images/remresult.PNG)
+
+However default value of both 1em & 1rem is equal to 16px.But if we change<br/>
+the setting of our web browser then the default value will change.
