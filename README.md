@@ -280,3 +280,5 @@ We can provide multiple class to any selectors just by seperating them by a spac
 ![mainclass](/images/mainclass.PNG)
 ![indexclass](/images/indexclass.PNG)
 ![resultclass](/images/resultclass.PNG)
+
+# ###DIV AND SPAN###<br/>
