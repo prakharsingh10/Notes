@@ -262,3 +262,20 @@ We can also use a fantastic approach of using the id, and then in .css file we w
 The below code is of .css
 ![id](/images/id.PNG)
 ![id](/images/idresult.PNG)
+
+Note that if we choose the id and style it in .css file using the id <br/>Then we cant overwrite that properties in the index ao any page .<br/>If we want to overwrite then we have to use the id for overwriting not the selectors.
+
+![mainover](/images/mainover.PNG)
+![indexover](/images/indexover.PNG)
+![resultover](/images/resultover.PNG)
+
+<!-- class eslectors -->
+
+###Class Selectors###
+I f we want to style some of the selectors as green then <br/>
+We can give them all the same id and style it in .css file, but if we do so in future we may get problem with the id, for example if we want to put label etc.<br/><br/>
+So to tackle this we can use the class and use the class attribute at the time of creation of the selector.<br/>And then in .css file we will style the whole class, though it can be done by id also but it is not a good idea to give all of them the same id.<br/><br/>
+We can provide multiple class to any selectors just by seperating them by a space while creating the selectors.
+![mainclass](/images/mainclass.PNG)
+![indexclass](/images/indexclass.PNG)
+![resultclass](/images/resultclass.PNG)
