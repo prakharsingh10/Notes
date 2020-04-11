@@ -271,7 +271,7 @@ Note that if we choose the id and style it in .css file using the id <br/>Then w
 
 <!-- class eslectors -->
 
-###Class Selectors###
+#Class Selectors#
 I f we want to style some of the selectors as green then <br/>
 We can give them all the same id and style it in .css file, but if we do so in future we may get problem with the id, for example if we want to put label etc.<br/><br/>
 So to tackle this we can use the class and use the class attribute at the time of creation of the selector.<br/>And then in .css file we will style the whole class, though it can be done by id also but it is not a good idea to give all of them the same id.<br/><br/>
