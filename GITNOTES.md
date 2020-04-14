@@ -52,3 +52,8 @@ We can delete the existing tags by using command |git tag -d !tagname!|
 Git alias is very useful when we dont want to type any word of command full.We can make use of git alias to give it a shortname
 |git config --global alias.br branch|
 The above command will work such that we can type br instead of branch in entire git.
+
+
+
+#GIT BRANCHING#
+I n branching we diverge gro m the main line  of development and conntinue our work without messing with the main line.
